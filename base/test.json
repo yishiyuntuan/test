@@ -1,0 +1,8 @@
+{
+    "leavel": "警告",
+    "file": "source/main:25",
+    "errorMessage": "不合法的符号",
+    "linter": "revive",
+    "isquestion": "",
+    "reason": ""
+}

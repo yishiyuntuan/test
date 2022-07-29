@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/monokai.min.css">-->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script> -->
+    <!-- and it's easy to individually load additional languages -->
+    <!-- <script src="js/highlightjs-vue.min.js"></script> -->
+    <link rel="stylesheet" href="css/prism.css">
+    <script src="js/prism.js"></script>
+</head>
+
+<body>
+    <!-- <div id="app">
+        <highlightjs autodetect :code="code" />
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/go.min.js"></script> -->
+
+    <div id="app" class="line-numbers">
+        <pre class="language-go" tabindex="0">
+            <code>
+                {{code}}
+            </code>
+        </pre>
+    </div>
+
+
+</body>
+<script>
+    const { createApp } = Vue
+    const app = createApp({
+        data() {
+            return {
+                code: `// ExampleController 服务于 "/", "/ping" and "/hello" 路由。
+type NavigationController struct {
+}
+
+func NewNavigationController(party router.Party) *mvc.Application {
+	return mvc.New(party.Party("/nav")).Handle(new(NavigationController))
+}
+
+func (c *NavigationController) Get() mvc.Result {
+	return mvc.Response{
+		ContentType: "text/html",
+		Text:        "<h1>Welcome</h1>",
+	}
+}`
+            }
+        }
+    })
+    // app.use(hljsVuePlugin)
+    app.mount('#app')
+</script>
+
+</html>
