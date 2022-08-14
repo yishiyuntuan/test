@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+    <style>
+        .hljs-ln-numbers {
+            text-align: center;
+            color: #ccc;
+            border-right: 1px solid #CCC;
+            vertical-align: top;
+            padding-right: 5px !important;
+
+            /* your custom style here */
+        }
+
+        /* for block of code */
+        .hljs-ln-code {
+            padding-left: 5px !important;
+        }
+    </style>
+    <script type="importmap">
+        {
+          "imports": {
+            "vue": "./js/vue.esm-browser.js"
+          }
+        }
+      </script>
+</head>
+
+<body>
+    <div id="app">
+        {{ message }}
+        <div>
+            <pre v-highlight="code"></pre>
+        </div>
+
+        <input type="button" @click="change()" value="改变代码" />
+    </div>
+    <script type="module">
+        import { createApp } from 'vue'
+        import { hljs } from './js/highlight.min.js'
+
+        const app = createApp({
+            data() {
+                return {
+                    message: 'Hello Vue!',
+                    code: `#include <stdio.h>
+int main()
+{
+    int age;
+    printf("请输入你的年龄：");
+    scanf("%d", &age);
+    if(age>=18){
+        printf("恭喜，你已经成年，可以使用该软件！\n");
+    }else{
+        printf("抱歉，你还未成年，不宜使用该软件！\n");
+    }
+    return 0;
+}`
+                }
+            },
+            methods: {
+                change() {
+                    this.code = `
+int main()
+{
+    int a, b, max;
+    printf("输入两个整数：");
+    scanf("%d %d", &a, &b);
+    if(a>b) max=a;
+    else max=b;
+    printf("%d和%d的较大值是：%d\n", a, b, max);
+    return 0;
+}`+this.code
+                }
+            }
+        })
+        // 使 v-focus 在所有组件中都可用
+        app.directive('highlight', {
+            created(el, binding) {
+                console.log("==>", el);
+                let html = hljs.highlight(binding.value, { language: 'c' }).value
+                // lineNumbersBlock(html)
+
+
+                el.innerHTML = `<code>` + html + `</code>`
+
+
+                // 
+
+            },
+            beforeMount(el) {
+                // hljs.lineNumbersBlock(el)
+                el.querySelectorAll('pre code').forEach((block) => {
+                    // if (block.getAttribute("highlighted") == "true") {
+                    //     return
+                    // }
+                    // block.setAttribute("highlighted", "true")
+                    // let code = block.innerHTML// block.innerHTML="<div><span style='margin-right: 10px;padding: 3px;border: #107ded solid 1px;color:#107ded;border-radius: 5px'>"+ "test"+"</span><button>复制</button>"+block.innerHTML+"</div>"
+                    // hljs.highlightElement(block)
+                    // lineNumbersBlock(block)
+                    // block.innerHTML = "<div><div style='padding: 5px 0px 10px 20px'><span style='margin-right: 10px;padding: 5px;border: rgba(16, 125, 237,0.5) solid 1px;color:#107ded;border-radius: 5px'>" + block.className.match(/(?<=language-).*(?= hljs)/).toString() + "</span><button class='el-button el-button--default el-button--mini' style='border-radius: 5px'>复制</button></div>" + block.innerHTML + "</div>"
+
+                    block.innerHTML = `<ol><li>${block.innerHTML.replace(
+                        /\n/g,
+                        `</li><li class="line">`
+                    )}</li></ol>`;
+
+                })
+            },
+            mounted() {
+                console.log('mounted');
+            },
+            beforeUpdate(el, binding, vnode, prevNode) {
+                let html = hljs.highlight(binding.value, { language: 'c' }).value
+
+                console.log("=========")
+                console.log(vnode.el)
+                console.log(el)
+
+                vnode.el.querySelectorAll('pre code').forEach((block) => {
+                    // if (block.getAttribute("highlighted") == "true") {
+                    //     return
+                    // }
+                    // block.setAttribute("highlighted", "true")
+                    // let code = block.innerHTML// block.innerHTML="<div><span style='margin-right: 10px;padding: 3px;border: #107ded solid 1px;color:#107ded;border-radius: 5px'>"+ "test"+"</span><button>复制</button>"+block.innerHTML+"</div>"
+                    // hljs.highlightElement(block)
+                    // lineNumbersBlock(block)
+                    // block.innerHTML = "<div><div style='padding: 5px 0px 10px 20px'><span style='margin-right: 10px;padding: 5px;border: rgba(16, 125, 237,0.5) solid 1px;color:#107ded;border-radius: 5px'>" + block.className.match(/(?<=language-).*(?= hljs)/).toString() + "</span><button class='el-button el-button--default el-button--mini' style='border-radius: 5px'>复制</button></div>" + block.innerHTML + "</div>"
+
+                    html = `<ol><li>${html.replace(
+                        /\n/g,
+                        `</li><li class="line">`
+                    )}</li></ol>`;
+                })
+
+                console.log("=========")
+
+
+                el.innerHTML=html
+            }
+        })
+        app.mount('#app')
+    </script>
+</body>
+
+</html>
