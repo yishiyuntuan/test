@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d273997-8c64-4eaf-97a2-502220c859e8" name="Changes" comment="提交">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/Async.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/Async.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/MissionProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/MissionProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CommissionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CommissionTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.8.5/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2CNiGLMgqddSoRltzgeRqeRkVUm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/yishiyuntuan/CodeWorkSpaces/java/async_QY",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "150eea4fe1660bee9bb3119d45575944",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="async.http" />
+      <recent name="async.generator.mapper" />
+      <recent name="generator.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OpenFeignTest.list2">
+    <configuration name="HttpServiceTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async_QY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="async.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="async.http" />
+      <option name="MAIN_CLASS_NAME" value="async.http.HttpServiceTest" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenFeignTest.list2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async_QY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="async.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="async.http" />
+      <option name="MAIN_CLASS_NAME" value="async.http.OpenFeignTest" />
+      <option name="METHOD_NAME" value="list2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async_QY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="async.generator.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="async.generator.mapper" />
+      <option name="MAIN_CLASS_NAME" value="async.generator.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async_QY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generator.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="generator.mapper" />
+      <option name="MAIN_CLASS_NAME" value="generator.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="async_QY" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="async.MainApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="async.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OpenFeignTest.list2" />
+        <item itemvalue="JUnit.HttpServiceTest.list" />
+        <item itemvalue="JUnit.UserMapperTest.test1 (1)" />
+        <item itemvalue="Spring Boot.MainApplication" />
+        <item itemvalue="JUnit.UserMapperTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d273997-8c64-4eaf-97a2-502220c859e8" name="Changes" comment="" />
+      <created>1658649351650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658649351650</updated>
+      <workItem from="1689105209781" duration="5485000" />
+      <workItem from="1689176730555" duration="9577000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1658664121207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658664121207</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交">
+      <created>1658667353753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658667353753</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/async/commission/demo/MissionProcess.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="async.commission.demo.Node1" memberName="status" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
